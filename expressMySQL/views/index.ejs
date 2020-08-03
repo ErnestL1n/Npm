@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head >
+  <table>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	</table>
+  </head>
+  <body>
+<h1 align="center"><%= title %></h1>
+<table>
+
+<tr>
+
+<th scope="col">id</th>
+
+<th scope="col">name</th>
+
+<th scope="col">address</th>
+
+</tr>
+
+<% for ( var i = 0 ; i < data.length ; i++){ %>
+
+<tr>
+
+<td>
+<%= i+1 %></td>
+
+<td>
+<%= data[i].name %>
+</td>
+
+<td>
+<%= data[i].address %>
+</td>
+
+</tr>
+
+<% } %>
+
+</table>
+  </body>
+</html>
