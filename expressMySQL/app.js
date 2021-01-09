@@ -18,7 +18,7 @@ host: "localhost",
 
 user: "root",
 
-password: "aircon1075",
+password: "12345",
 
 database: "mydb" });
 
